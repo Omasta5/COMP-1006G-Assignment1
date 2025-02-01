@@ -1,0 +1,78 @@
+html{
+    scroll-behavior: smooth;
+    background-image: url(../img/WebBackgroundjpg.jpg);
+    background-size: cover;
+    font-family: 'Atma', sans-serif;
+}
+/* Header */
+header{
+    background-color: aqua;
+
+}
+header div{
+    width: auto;
+    flex-grow: 1;
+    height: 150px;
+    align-items: center;
+}
+header div img{
+    display: flex;
+    width: 138px;
+    height: 138px;
+    justify-content: center;
+    align-items: center;
+    right: 150px;
+}
+header menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+header menu li{
+    padding: 0 10px;
+    text-transform: none;
+}
+/* Body */
+body{
+    text-align: center;
+}
+body .teamWelcome{
+    font-size: 50px;
+    font-family: 'Barriecito', sans-serif;
+    background-color: #ffef0b;
+    padding: 0%;
+}
+body .teamWelcome h2{
+    font-size: 70px;
+    font-family: 'Barriecito', sans-serif;
+    background-color: #ffef0b;
+    
+}
+.about h3{
+    font-size: 45px;
+    font-style: italic;
+}
+.about p{
+    font-size: 30px;
+}
+.about p #sneak{
+    font-style: italic;
+}
+/* Form Info */
+main #form h2{
+    font-family: 'Barriecito', sans-serif;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    background-color: white;
+    border-radius: 5%;
+}
+/* Footer */
+footer p{
+    font-family: 'Atma', sans-serif;
+    font-style: italic;
+    font-size: 15px;
+    text-align: left;
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
